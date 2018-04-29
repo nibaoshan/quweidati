@@ -1,0 +1,35 @@
+<!--index.wxml-->
+<view class='daojishi' style="width:{{Widths}}%;float:left;"></view>
+<view class="container">
+  <view class="contents">
+    <view class='problems'>{{problem.problem}}</view>
+  </view>
+  <view class='anss'>
+    <view class='answers'>
+      <button disabled='{{this.data.disabled}}' data-tf="{{problem.answer[0].tf}}" bindtap='checktrue'>{{problem.answer[0].ans}}</button>
+    </view>
+    <view class='answers'>
+      <button disabled='{{this.data.disabled}}' data-tf="{{problem.answer[1].tf}}" bindtap='checktrue'>{{problem.answer[1].ans}}</button>
+    </view>
+  </view>
+
+  <view class="modal-box" hidden="{{flag}}" bindtap="hidemodal">
+
+    <view class="modal-body">
+      <view class="modal-content">
+        <view style='height:70%;padding-top:30rpx;'>
+          <view class='cgmsgs'>
+            <text>{{cgmsg}}</text>
+          </view>
+         
+          <view style='margin-top:90rpx; font-size:26rpx;'>立即分享邀请好友得超大礼包</view>
+        </view>
+        <view class='content-bot'>
+          <button class="knowBtn" open-type="share">立即分享</button>
+        </view>
+      </view>
+    </view>
+  </view>
+
+
+</view>

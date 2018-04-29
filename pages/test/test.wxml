@@ -1,0 +1,14 @@
+<!--pages/test/test.wxml-->
+ <view class="fenxiang-box">
+    <view bindtap="show" class="fenxiang-btn"><view>分享</view></view>
+  </view>
+
+  <view class="modal-box" hidden="{{flag}}" bindtap="hide">
+
+    <view class="modal-body">
+
+      <view class="modal-content">
+        <button class="knowBtn" open-type="share">立即分享</button>
+     </view>
+    </view>
+  </view>

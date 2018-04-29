@@ -1,0 +1,30 @@
+<!--logs.wxml-->
+<view class='tops'>
+</view>
+<view class="container" bindtap='hidemodal'>
+    <view class='titles'>
+        <text>超好玩的趣味答题</text>
+    </view>
+     
+   <view class='log-list'>
+    <text class="log-item" bindtap='starts'>{{protext}}</text>
+   </view>
+   <view><button type='warn' class='sharebut' open-type="share">立即分享</button></view>
+
+
+   <view class="modal-box" hidden="{{flag}}" bindtap="hide">
+
+    <view class="modal-body" bindtap='hidemodal'>
+      <view class="modal-content">
+        <view style='height:70%;padding-top:30rpx;'>
+        <view class='cgmsgs'><text>答题卡缺失</text></view>
+        <view style='margin-top:130rpx; font-size:26rpx;'>立即分享邀请好友得答题卡</view>
+        </view>
+        <view class='content-bot'>
+        <button class="knowBtn" open-type="share">立即分享</button>
+        </view>
+     </view>
+    </view>
+  </view>
+</view>
+

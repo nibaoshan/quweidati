@@ -1,0 +1,14 @@
+{
+  "pages": [
+    
+    "pages/index/index",
+    "pages/problem/problem"
+    
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "趣味答题",
+    "navigationBarTextStyle": "black"
+  }
+}

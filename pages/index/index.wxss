@@ -1,0 +1,84 @@
+page{
+   background-color: #FF7256;
+}
+.container{
+ 
+  height: 100%
+}
+.log-list {
+  display: flex;
+  flex-direction: column;
+  padding: 40rpx;
+  background-color: #636363;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+
+}
+.log-item {
+  margin: 10rpx;
+  font-size: 88px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-box{
+  position:fixed;
+  width:100%;
+  height:100%;
+  top:0px;
+  background:rgba(0,0,0,0.4);
+  overflow: hidden;
+    justify-content: center;
+  }
+
+.modal-body{
+   position:relative;
+   left: 15%;
+  }
+
+.modal-content{
+    width: 70%;
+    position:absolute;
+    top:300rpx;
+    background-color: #fff;
+    border-radius: 20rpx;
+    height: 460rpx;
+    text-align: center;
+    background: #FF7256;
+    color: #FFD700;
+  }
+  .cgmsgs{
+    font-size: 40rpx;
+    margin-top:40rpx; 
+    font-size: 50rpx;
+  }
+.knowBtn{
+  width: 80%;
+
+}
+.content-bot{
+  background-color: #fff;
+  height: 30%;
+  border-radius: 0px 0px 10px 10px;
+  padding-top: 20rpx;
+}
+.sharebut{
+  margin-top: 40rpx;
+}
+.titles{
+  color: #fff;
+  margin-bottom: 100rpx;
+  
+}
+.tops{
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background-color: #000;
+  opacity: 0;
+  z-index: 99999;
+}
